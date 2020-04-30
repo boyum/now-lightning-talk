@@ -8,7 +8,6 @@ import (
 
 func Handler(w http.ResponseWriter, r *http.Request) {
 	danboDayIII := time.Date(2020, 4, 30, 0, 0, 0, 0, time.UTC)
-	danboDayIII := time.Date(2020, 4, 30, 0, 0, 0, 0, time.UTC)
 	danboYear, danboMonth, danboDay := danboDayIII.Date()
 
 	currentTime := time.Now()
