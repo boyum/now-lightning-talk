@@ -16,7 +16,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	itIsDanboDay := danboYear == currentYear && danboMonth == currentMonth && danboDay == currentDay
 
 	if itIsDanboDay { 
-		fmt.Fprintf(w, "<div style=\"display:flex;align-items:center;justify-content:center;min-height:100vh;font-size:50px;text-align:center;\">YES</div>")		
+		fmt.Fprintf(w, "<div style=\"display:flex;align-items:center;justify-content:center;min-height:100vh;font-size:50px;text-align:center;\">YES, %v is Danbo Day III</div>", currentTime)		
 	} else {
 		fmt.Fprintf(w, "<div style=\"display:flex;align-items:center;justify-content:center;min-height:100vh;font-size:50px;text-align:center;\">nooooo</div>")
 	}
