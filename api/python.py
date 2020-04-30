@@ -1,5 +1,5 @@
-from http.server import BaseHTTPRequestHandler
 from datetime import datetime
+from http.server import BaseHTTPRequestHandler
 
 
 class handler(BaseHTTPRequestHandler):
