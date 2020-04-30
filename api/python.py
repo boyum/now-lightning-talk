@@ -10,8 +10,7 @@ class handler(BaseHTTPRequestHandler):
     self.wfile.write(
       """
       {
-        "time": "{time}",
         "lang": "python"
       }
-      """.format(time=str(datetime.now().strftime('%Y-%m-%d %H:%M:%S')).encode()))
+      """
     return
