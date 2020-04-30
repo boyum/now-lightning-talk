@@ -2,7 +2,8 @@
 </script>
 
 <main>
-	<h1>Welcome!! ☀️</h1>
+
+	<h1>Welcome!!!!!!!!!!!!!!! ☀️</h1>
 	<a href="/api/is-it-danbo-day">Is it Danbo day today?</a>
 </main>
 
